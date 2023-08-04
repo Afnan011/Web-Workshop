@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: #02050ae3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 5vh;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+nav {
+    width: 50%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li a {
+    text-decoration: none;
+    color: #d8d8d8;
+    cursor: pointer;
+
+}
+
+#hero {
+    width: 100vw;
+    padding: 10px;
+    margin-top: 20px;
+    height: 95vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+button:hover {
+    background-color: rgb(6, 6, 29);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#hero h4 {
+    font-size: 20px;
+}
+
+table {
+    margin: 10px;
+}
+
+table tr th {
+    padding: 10px;
+}
+
+table tr td {
+    padding: 5px;
+}
